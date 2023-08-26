@@ -19,26 +19,23 @@ nav{
     margin-top: 80px;
     margin-bottom: 80px;
 }
-
-.link-v{
+.link:first-child{
     font-size: 18px;
     font-weight: 600;
     line-height: 23px;
     padding-left: 180px;
-    padding-right: 11px;
-    }
-.link-myblog{
-    line-height: 21px;
-    font-size: 18px;
+    padding-right: 11px;   
+}
+.link:nth-child(2){
     padding-right: 77px;
-    }
-.link-html{
+}
+.link:nth-child(3){
     padding-right: 52px;
 }
-.link-frontend{
-    padding-right: 32px;
+.link:nth-child(4){
+    padding-right: 39px;
 }
-.img{
+.logo{
     vertical-align: middle;
 }
 input {
@@ -75,23 +72,21 @@ h1{
 .author__name{
     font-size: 16px;
 }
-.text__img{
+.image{
     margin: 0 0 69px 0;
-}
-.text{
     text-align: center;
 }
-.text__elem1{
-    margin: 0 0 30px 0;
-    line-height: 32px;
-    font-size: 20px;
-}
-.text__elem2,.text__elem3 {
+.text__elem{
     line-height: 30px;
     font-size: 16px;
     margin: 0 0 30px 0;
+    text-align: center;
 }
-.text__elem3{
+.text__elem:first-child {
+    line-height: 32px;
+    font-size: 20px;
+}
+.text__elem:last-child{
     margin-bottom:0
 }
 footer p{
