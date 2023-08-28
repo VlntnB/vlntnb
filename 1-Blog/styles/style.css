@@ -43,7 +43,7 @@ nav{
     left: 12px;
 }
 .logo__text{
-    display: inline;
+    display: inline-block;
     vertical-align: middle;
 }
 .logo__link{
