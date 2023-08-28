@@ -72,7 +72,7 @@ input {
     top: 80px;
 }
 input::placeholder {
-   background: url("../images/search.svg") no-repeat;
+   background: url("../images/search1.svg") no-repeat;
 }
 h1{
     font-size: 24px;
