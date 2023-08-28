@@ -10,6 +10,7 @@ body{
 p{
     margin: 0;
 }
+/*test*/
 nav a{
     font-size: 16px;
     line-height: 19px;
@@ -72,7 +73,7 @@ input {
     top: 80px;
 }
 input::placeholder {
-   background: url("../images/search.svg") no-repeat;
+   background: url("../images/search1.svg") no-repeat;
 
 }
 h1{
