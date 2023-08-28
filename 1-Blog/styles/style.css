@@ -16,41 +16,64 @@ nav a{
     text-decoration: none;
 }
 nav{
-    margin-top: 80px;
-    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: inline-block;
 }
-.title{font-weight: 600;
-padding-right: 11px;
+.logo {
+    padding: 80px 0 80px 180px;
+    display: inline-block;
 }
-
-.link:first-child{
+.logo__img{
+    width: 35px;
+    height: 35px;
+    background: #4b5563;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.title{
     font-size: 18px;
     line-height: 23px;
-    padding-left: 180px;
-    padding-right: 77px;   
+    font-weight: 600;
+    padding-right: 11px;
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    left: 12px;
 }
-.link:nth-child(2){
-    
+.logo__text{
+    display: inline;
+    vertical-align: middle;
 }
-.link:nth-child(2){
+.logo__link{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    padding-right: 77px;
+    text-decoration: none;
+}
+.link:first-child{
     padding-right: 52px;
 }
-.link:nth-child(3){
+.link:nth-child(2){
     padding-right: 39px;
-}
-.logo{
-    vertical-align: middle;
 }
 input {
     font-size: 16px;
     background-color: rgba(31, 41, 55, 0.6);
     line-height: 19px;
     text-align: left;
-    float: right;
-    margin-right: 180px;
     border-radius: 30px;
     border: 1px solid rgba(31, 41, 55, 0.6);
     padding: 10px;
+    position: absolute;
+    right: 180px;
+    top: 80px;
+}
+input::placeholder {
+   background: url("../images/search.svg") no-repeat;
+
 }
 h1{
     font-size: 24px;
@@ -82,8 +105,8 @@ h1{
 .text__elem{
     line-height: 30px;
     font-size: 16px;
-    margin: 0 0 30px 0;
-    text-align: center;
+    text-align:justify;
+    margin: 0 365px 30px 365px;
 }
 .text__elem:first-child {
     line-height: 32px;
