@@ -112,7 +112,7 @@ h1{
     font-size: 20px;
 }
 .text__elem:last-child{
-    margin-bottom:0
+    margin-bottom:0;
 }
 footer p{
     padding: 103px 0 77px 0;
