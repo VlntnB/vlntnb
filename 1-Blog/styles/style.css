@@ -1,7 +1,7 @@
 *{
     color: #FFFFFF;
     font-weight: 400;
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
 }
 body{
     background: linear-gradient(#374151, #111827,#121928);
@@ -15,10 +15,15 @@ nav a{
     line-height: 19px;
     text-decoration: none;
 }
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
 nav{
     padding-top: 80px;
     padding-bottom: 80px;
-    display: inline-block;
 }
 .logo {
     padding: 80px 0 80px 180px;
@@ -70,9 +75,10 @@ input {
     position: absolute;
     right: 180px;
     top: 80px;
+    margin-right: auto;
 }
 input::placeholder {
-   background: url("../images/search.svg") no-repeat;
+   background: url("../images/search1.svg") no-repeat;
 }
 h1{
     font-size: 24px;
@@ -90,12 +96,28 @@ h1{
     margin: 0 0 28px 0;
     line-height: 28px;
     text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 .author__job{
     font-size: 14px;
+    
 }
 .author__name{
     font-size: 16px;
+    
+}
+.author__img{
+    height: 50px;
+    width: 50px;
+    align-self: center;
+}
+#author{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 16px;
 }
 .image{
     margin: 0 0 69px 0;

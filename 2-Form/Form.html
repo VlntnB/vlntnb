@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Keywords" content="регистрация, форма" />
+    <meta name="Description" content="Форма регистрации" />
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Регистрация</h1>
+        <p>Уже есть аккаунт <a href="#">Войти</a></p>
+      </header>
+      <section class="container">
+        <form action="#">
+          <div>
+            <input
+              class="company"
+              type="company"
+              placeholder="Моя компания"
+              name="company"
+            />
+          </div>
+          <div class="form">
+            <input
+              class="form__name"
+              type="name"
+              placeholder="Имя"
+              name="name"
+            />
+            <input
+              class="form__surname"
+              type="surname"
+              placeholder="Фамилия"
+              name="surname"
+            />
+          </div>
+          <div>
+            <input
+              class="email"
+              type="email"
+              placeholder="Email"
+              name="email"
+            />
+          </div>
+          <button type="submit">Зарегистрироваться &rarr;</button>
+        </form>
+      </section>
+      <footer>
+        <input type="checkbox" id="agree" name="agree" />
+        <label for="agree">Я прочитал и принимаю</label>
+        <a class="terms" href="#">Условия использования</a>
+      </footer>
+    </main>
+  </body>
+</html>
