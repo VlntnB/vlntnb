@@ -69,9 +69,21 @@ form input{
     height: 44px;
     margin-bottom: 22px;
     padding-left: 11px;
-}
-.form__name, .form__surname, .email{
     border-style: none;
+}
+button{
+    background-color: #089FE0;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 44px;
+    margin-bottom: 22px;
+    border: none;
+    border-radius: 5px;
+    width: 394px;
 }
 .email{
     border-radius: 5px;
@@ -97,20 +109,6 @@ form input{
 .form__surname {
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
-}
-button{
-    background-color: #089FE0;
-    color: #FFFFFF;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: center;
-    height: 44px;
-    margin-bottom: 22px;
-    border: none;
-    border-radius: 5px;
-    width: 394px;
 }
 .terms{
     text-decoration: none;
