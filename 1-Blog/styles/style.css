@@ -1,6 +1,7 @@
 *{
     color: #FFFFFF;
     font-weight: 400;
+
     font-family: Roboto, sans-serif;
 }
 body{
@@ -15,6 +16,7 @@ nav a{
     line-height: 19px;
     text-decoration: none;
 }
+
 header{
     display: flex;
     flex-direction: row;
@@ -23,8 +25,8 @@ header{
 }
 nav{
     padding-top: 80px;
-    padding-bottom: 80px;
-}
+  padding-bottom: 80px;
+
 .logo {
     padding: 80px 0 80px 180px;
     display: inline-block;
@@ -80,6 +82,7 @@ input {
 input::placeholder {
    background: url("../images/search1.svg") no-repeat;
 }
+
 h1{
     font-size: 24px;
     line-height: 38px;
@@ -96,6 +99,7 @@ h1{
     margin: 0 0 28px 0;
     line-height: 28px;
     text-align: center;
+
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -143,3 +147,4 @@ footer p{
     line-height: 28px;
     font-size: 16px;
 }
+
