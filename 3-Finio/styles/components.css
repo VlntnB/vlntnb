@@ -1,0 +1,36 @@
+.button {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 140%;
+
+  border: none;
+  border-radius: var(--border-34);
+  padding: 12px 32px;
+}
+
+.graphics__item {
+  display: flex;
+  align-items: center;
+  border-bottom: var(--border-bottom);
+}
+.h2 {
+  margin: 0px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.paragraph {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+.h3 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+
+  margin-top: 0px;
+  margin-bottom: 0;
+}
